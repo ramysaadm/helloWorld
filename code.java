@@ -5,7 +5,7 @@ public static int parseCharArrayToInt(char[] chars) {
     
     int result = 0;
     int i = 0;
-    boolean negative = false;
+    boolean negative =    false;
     
     if (chars[0] == '-') {
         negative = true;
